@@ -1,0 +1,53 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000000"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="300dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"></ImageView>
+
+    <TextView
+        android:textColor="#FFEB3B"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Hey buddy"
+        android:layout_gravity="center"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:textColor="#BA1515"
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Hey buddy"
+        android:layout_gravity="center"
+        android:textSize="20dp"></TextView>
+
+    <Button
+        android:onClick="robo"
+        android:layout_marginTop="50dp"
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Now"></Button>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDC4C4"
+        android:text="Copyright ©2020 All Rights Reserved by Ruturaj Magar"></TextView>
+
+
+
+
+</LinearLayout>

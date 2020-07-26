@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payement">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="291dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:text="Hey dude, you are almost done!"
+        android:textColor="#CDDC39"
+        android:textSize="20dp"></TextView>
+
+
+    <ImageView
+        android:layout_width="147dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:src="@drawable/emogiiii"></ImageView>
+
+    <Button
+        android:id="@+id/cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay"></Button>
+
+    <Button
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call customer care"></Button>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDC4C4"
+        android:text="Copyright ©2020 All Rights Reserved by Ruturaj Magar"></TextView>
+
+</LinearLayout>

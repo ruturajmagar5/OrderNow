@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cancel"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#DAC0C0"
+        android:textSize="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Payement is Unsucessful! Please try again"></TextView>
+
+    <Button
+        android:id="@+id/bb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retry Payement"></Button>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDC4C4"
+        android:text="Copyright ©2020 All Rights Reserved by Ruturaj Magar"></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Thankyou"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Thank you, your order is sucessfully placed.."
+        android:textColor="#DC1C1C"
+        android:textSize="25dp"></TextView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:src="@drawable/thankyou"></ImageView>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDC4C4"
+        android:text="Copyright ©2020 All Rights Reserved by Ruturaj Magar"></TextView>
+
+
+</LinearLayout>

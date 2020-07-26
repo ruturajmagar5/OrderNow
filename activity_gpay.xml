@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:orientation="vertical"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ordernow.Gpay">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payement Gateway:"
+        android:textColor="#E6DBDB"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Pay with GooglePay"
+        android:textAllCaps="false"></Button>
+
+    <Button
+        android:id="@+id/pay_button2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Pay with Phonepay"
+        android:textAllCaps="false"></Button>
+
+    <Button
+        android:id="@+id/pay_button3"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:text="Pay with Rozorpay"
+        android:textAllCaps="false"></Button>
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDC4C4"
+        android:text="Copyright ©2020 All Rights Reserved by Ruturaj Magar"></TextView>
+
+
+</LinearLayout>
